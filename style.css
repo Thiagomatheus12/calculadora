@@ -36,12 +36,6 @@ input {
     margin-bottom: 10px;
 }
 
-.input-text::placeholder {
-    color: #fff;
-    font-size: 30px;
-    font-family: 'Bebas Neue', cursive;
-}
-
 .input-reload {
     background: rgb(255, 145, 0);
     width: 28px;
