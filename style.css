@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Righteous&display=swap');
+
+body {
+    width: 99%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(0, 0, 0);
+}
+
+input {
+    color: #fff;
+    padding: 17px;
+    outline: none;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    border-radius: 25%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 430px;
+    background: gray;
+    border-radius: 8%;
+}
+
+.input-text {
+    width: 160px;
+    height: 26px;
+    border-radius: 22px;
+    margin-bottom: 10px;
+}
+
+.input-text::placeholder {
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.input-reload {
+    background: rgb(255, 145, 0);
+    width: 28px;
+    height: 26px;
+    cursor: default;
+}
+
+.input-reload:hover {
+    opacity: 0.9;
+}
+
+.input-number {
+    background: rgb(69, 67, 67);
+    width: 64px;
+    height: 67px;
+    margin-bottom: 2px;
+}
+
+.input-number:hover {
+    opacity: 0.8;
+}
+
+.input-operator {
+    background: rgb(255, 145, 0);
+    width: 64px;
+    height: 67px;
+}
+
+.input-operator:hover {
+    opacity: 0.8;
+}
